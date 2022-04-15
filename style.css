@@ -1,0 +1,10 @@
+html, body{
+    height:100%
+}
+body{
+    background-image: linear-gradient(to top, rgb(76, 170, 187), rgb(152, 105, 206));
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(6, 6, 26);
+}
