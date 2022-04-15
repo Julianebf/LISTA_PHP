@@ -8,3 +8,27 @@ h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(6, 6, 26);
 }
+#nm, button{
+    border-radius: 3px;         
+    width: 100%;
+    display:block;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border:none;
+    cursor: pointer;
+}
+.form{
+    background-color: rgba(160, 24, 194, 0.5);
+    width: 300px;
+    margin: 50px auto 0;  
+    border-radius: 10px;
+    padding: 80px;
+}
+button{
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgb(27, 27, 161);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(6, 6, 26);
+}
