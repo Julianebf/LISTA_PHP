@@ -1,6 +1,7 @@
 <?php
     $primeiroValor=$_GET['valor1'];
     $segundoValor=$_GET['valor2'];
+    
     $soma = $primeiroValor + $segundoValor;
 
     if ($soma > 20){
