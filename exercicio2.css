@@ -8,7 +8,7 @@ h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(6, 6, 26);
 }
-#nm, button{
+#num, button{
     border-radius: 3px;         
     width: 100%;
     display:block;
