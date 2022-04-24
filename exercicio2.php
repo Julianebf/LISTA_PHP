@@ -21,7 +21,14 @@
         <br/> <br/>
         <button name="send">verify</button>
         </div>
-
+    <?php
+        if(isset($_POST['send'])){
+            $number = strip_tags(filter_input(INPUT_POST, 'number', FILTER_SANITIZE_STRIPPED));
+            
+            echo divisible($number);
+        }
+        
+    ?>
     </form>
 </body>
 </html>
