@@ -13,5 +13,15 @@
         divisível por nenhum destes.
     </header>
     <hr><br>
+    <?php include "config.php" ?>
+    <form  method="post">
+        <div class="form">
+        <h3>calculate:</h3>
+        <input type="int" placeholder="Enter number" name="number" id="number">
+        <br/> <br/>
+        <button name="send">verify</button>
+        </div>
+
+    </form>
 </body>
 </html>
