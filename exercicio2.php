@@ -7,6 +7,11 @@
     <title>Exercicio2</title>
 </head>
 <body>
-    
+<header>
+        Entrar com um número e informar se ele é
+        divisível por 10, por 5, por 2 ou se não é
+        divisível por nenhum destes.
+    </header>
+    <hr><br>
 </body>
 </html>
