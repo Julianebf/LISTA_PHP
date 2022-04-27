@@ -1,38 +1,40 @@
-body{
-    background-color: #f9eac3;
+html, body{
+    height: 100%;
 }
-h1{
-   color: #474747;
+ body{
+    background-image: linear-gradient(45deg, rgb(202, 134, 7), rgb(248, 224, 87));
 }
-
 p{
-   color: gray;
+    color: white;
+    font-size: 20px;
 }
-
-.calc{
-   width: 250px;
-   margin: 50px auto 0;
+.form{
+    display:block;
+    background: #FFFFFF;
+    width: 300px;
+    margin: 50px auto 0;  
+    border-radius: 10px;
+    padding: 80px;
+    font-size: 20px;
 }
-
-#pvalor, #svalor, .buton{
-   display: block;
-   width: 100%;
-   box-sizing: border-box;
-   padding: 12px;
-   
+h2{
+    color:rgb(168, 118, 11)
 }
-
-.buton{
-   margin-top: 20px;
-   background-color: #f5ba6e;
-   border: none;
-   cursor: pointer;
+#name, #sexo, #data{
+    border-radius: 3px;         
+    width: 100%;
+    display:block;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
-
-#pvalor{
-   margin-bottom: 15px;
-}
-
-header{
-   background-color: white;
+button{
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgb(128, 78, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(31, 24, 14);
+    border:none;
+    cursor: pointer;
+    width: 100%;
 }
