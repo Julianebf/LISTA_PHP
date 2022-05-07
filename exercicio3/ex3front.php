@@ -29,7 +29,7 @@
     </form>    
             
     <?php
-        $arquivo = 'config.php';
+        $arquivo = 'config3.php';
         if(file_exists($arquivo)){
             include 'config.php';
         }
