@@ -1,7 +1,4 @@
-# LISTA_PHP
-Lista contendo 20 exercicios de integração Php, Html e Css, para o programa Novos titãs.
+Para executar  os exercicios:
+1. Instale o ambiente de desenvolvimento PHP Xampp: https://www.apachefriends.org/pt_br/index.html.
 
-O código foi desenvolvido no editor visual studio code, para rodar o sistema foi utilizado o pacote de servidores Xampp.
-
-Link do repositório contendo todos os exercicios: https://github.com/Julianebf/LISTA_PHP/tree/index 
-
+2. Instale o editor de código Visual Studio Code: https://code.visualstudio.com/download
