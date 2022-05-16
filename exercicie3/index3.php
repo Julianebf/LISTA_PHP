@@ -28,9 +28,9 @@
     <input type="submit" name="verificar" value="Verificar">
     </form>
     <?php
-        $arquivo = 'config.php';
+        $arquivo = 'config3.php';
         if(file_exists($arquivo)){
-            include 'config.php';
+            include 'config3.php';
         }
         else{
             echo "file".$arquivo."not folder!";
