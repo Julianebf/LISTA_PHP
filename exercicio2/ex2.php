@@ -15,7 +15,7 @@
         divisível por nenhum destes.
     </header>
     <hr><br>
-    <?php include "ex2.php" ?>
+    <?php include "ex2back.php" ?>
     <form  method="post">
         <div class="form">
         <h3>calculate:</h3>
