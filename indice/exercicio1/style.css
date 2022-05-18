@@ -1,0 +1,38 @@
+body{
+    background-color: #f9eac3;
+}
+h1{
+   color: #474747;
+}
+
+p{
+   color: gray;
+}
+
+.calc{
+   width: 250px;
+   margin: 50px auto 0;
+}
+
+#pvalor, #svalor, .buton{
+   display: block;
+   width: 100%;
+   box-sizing: border-box;
+   padding: 12px;
+   
+}
+
+.buton{
+   margin-top: 20px;
+   background-color: #f5ba6e;
+   border: none;
+   cursor: pointer;
+}
+
+#pvalor{
+   margin-bottom: 15px;
+}
+
+header{
+   background-color: white;
+}
