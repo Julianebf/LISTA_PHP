@@ -15,7 +15,7 @@
         divisível por nenhum destes.
     </header>
     <hr><br>
-    <?php include "ex2back.php" ?>
+    <?php include "ex2back.php"?>
     <form  method="post">
         <div class="form">
         <h3>calculate:</h3>
@@ -31,8 +31,7 @@
             $number = strip_tags(filter_input(INPUT_POST, 'number', FILTER_SANITIZE_STRIPPED));
             
             echo divisible($number);
-        }
-        
+        }      
     ?>
 </body>
 </html>
