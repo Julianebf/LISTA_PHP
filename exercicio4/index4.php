@@ -23,10 +23,12 @@ Entrar com 3 números e imprimi-los em ordem decrescente (suponha números difer
     </form>
 
     <?php
-        if(isset($_POST['verify'])){
-            $number1 = strip_tags(filter_input(INPUT_POST, 'number1', FILTER_SANITIZE_STRIPPED));
-            $number2 = strip_tags(filter_input(INPUT_POST, 'number2', FILTER_SANITIZE_STRIPPED));
-            $number3 = strip_tags(filter_input(INPUT_POST, 'number3', FILTER_SANITIZE_STRIPPED));
+        $arquivo = 'config4.php';
+        if(file_exists($arquivo)){
+            include 'config4.php';
+        }
+        else{
+            echo "file".$arquivo."not folder!";
         }
     ?>
 </body>
