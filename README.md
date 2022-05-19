@@ -1,3 +1,7 @@
+PHP: VERSÃO 
+8.1.6
+XAMPP: VERSÃO
+3.3.0
 Para executar  os exercicios:
 1. Instale o ambiente de desenvolvimento PHP Xampp: https://www.apachefriends.org/pt_br/index.html.
 
