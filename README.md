@@ -1,10 +1,10 @@
-Para executar  os exercicios:
-* Necessario:
+
 PHP: VERSÃO 
 8.1.6
 XAMPP: VERSÃO
 3.3.0
-* Passo á passo para o fucionameto do exercicio:
+
+* Passo á passo para executar o exercicio:
 
 1. Instale o ambiente de desenvolvimento PHP Xampp: https://www.apachefriends.org/pt_br/index.html.
 
@@ -17,5 +17,3 @@ XAMPP: VERSÃO
 5. Para que o xampp reconheça o arquivo, o diretorio deve está em uma pasta no c: ao clicar na pasta xammp deve-se clicar em seguida em uma pasta chamada htdocs.
 
 6. No htdocs todas as pastas salvas são reconhedas e interpretadas.
-
-
