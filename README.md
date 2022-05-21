@@ -19,3 +19,4 @@ XAMPP: VERSÃO
 6. No htdocs todas as pastas salvas são reconhedas e interpretadas.
 
 
+Obs: no exercicio3 o arquivo index3.php contém o formulario html, já o arquivo config3.php contém a parte lógica.
