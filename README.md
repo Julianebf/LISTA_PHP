@@ -17,3 +17,5 @@ XAMPP: VERSÃO
 5. Para que o xampp reconheça o arquivo, o diretorio deve está em uma pasta no c: ao clicar na pasta xammp deve-se clicar em seguida em uma pasta chamada htdocs.
 
 6. No htdocs todas as pastas salvas são reconhedas e interpretadas.
+
+Obs: Na pasta exercicio4 index4.php corresponde ao formulario html config4.php corresponde a prte lógica do exercicio.
