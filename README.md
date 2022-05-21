@@ -1,5 +1,4 @@
-Para executar  os exercicios:
-* Necessario:
+
 PHP: VERSÃO 
 8.1.6
 XAMPP: VERSÃO
@@ -16,6 +15,7 @@ XAMPP: VERSÃO
 
 5. Para que o xampp reconheça o arquivo, o diretorio deve está em uma pasta no c: ao clicar na pasta xammp deve-se clicar em seguida em uma pasta chamada htdocs.
 
-6. No htdocs todas as pastas salvas são reconhedas e interpretadas.
+6. No htdocs todas as pastas salvas são reconhedas e interpretadas pelo browser.
 
+obs: Se o Apache não tiver startado e a aba do xampp aberta o exercicio não fucionará no browser.
 
