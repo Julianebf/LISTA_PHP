@@ -10,3 +10,5 @@ Para executar  os exercicios:
 5. Para que o xampp reconheça o arquivo, o diretorio deve está em uma pasta no c: ao clicar na pasta xammp deve-se clicar em seguida em uma pasta chamada htdocs.
 
 6. No htdocs todas as pastas salvas são reconhedas e interpretadas.
+
+Obs: no exercicio2, ex2.php contém o formulario html, no arquivo ex2back.php contém a parte lógica.
