@@ -1,10 +1,10 @@
-Para executar  os exercicios:
 * Necessario:
 PHP: VERSÃO 
 8.1.6
 XAMPP: VERSÃO
 3.3.0
-* Passo á passo para o fucionameto do exercicio:
+
+* Passo á passo para executar os exercicio:
 
 1. Instale o ambiente de desenvolvimento PHP Xampp: https://www.apachefriends.org/pt_br/index.html.
 
@@ -18,4 +18,8 @@ XAMPP: VERSÃO
 
 6. No htdocs todas as pastas salvas são reconhedas e interpretadas.
 
-
+obs: No exercicio1 index.html é o arquivo de entrada do exercicio.
+     No exercicio2 ex2.php é o arquivo de entrada do exercicio.
+     No exercicio3 index3.php é o arquivo de entrada do exercicio;
+     No exercicio4 index4.php é o arquivo de entrada do exercicio.
+   
