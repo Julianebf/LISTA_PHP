@@ -23,3 +23,4 @@ obs: No exercicio1 index.html é o arquivo de entrada do exercicio.
      No exercicio3 index3.php é o arquivo de entrada do exercicio;
      No exercicio4 index4.php é o arquivo de entrada do exercicio.
    
+
