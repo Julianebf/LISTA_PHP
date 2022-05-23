@@ -9,6 +9,7 @@
 </head>
 <body>
 Entrar com 3 números e imprimi-los em ordem decrescente (suponha números diferentes)
+    
     <form  method="post">
         <div class="form">
         <h3>Order</h3>
@@ -18,7 +19,7 @@ Entrar com 3 números e imprimi-los em ordem decrescente (suponha números difer
         <br/> <br/>
         <input type="int" placeholder="Enter number3" name="number3" id="number3">
         <br/> <br/>
-        <button name="verify">verify</button>
+        <input type="submit" name="verificar" value="Verificar">
         </div>
     </form>
 
