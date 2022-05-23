@@ -1,8 +1,16 @@
+
 * Necessario:
+
+Apache: VERSÃO
+2.4.53 
+(Win64)  
+OpenSSL: VERSÃO
+1.1.1n 
 PHP: VERSÃO 
-8.1.6
+8.1.4 Server at localhost Port 80
 XAMPP: VERSÃO
 3.3.0
+
 * Passo á passo para  executar o exercicio:
 
 1. Instale o ambiente de desenvolvimento PHP Xampp: https://www.apachefriends.org/pt_br/index.html.
