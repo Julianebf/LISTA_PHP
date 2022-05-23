@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
     <title>Execicio5</title>
 </head>
 <body>
@@ -18,7 +19,7 @@ acordo com tamanho dos lados.
         <br/> <br/>
         <input type="int" placeholder="Terceiro numero" name="number3" id="number3">
         <br/> <br/>  
-        <input type="submit" name="verificar" value="Verificar">     
+        <button name="verificar">verificar</button>     
         </div>
     </form>
 </body>
