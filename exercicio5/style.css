@@ -37,7 +37,7 @@ button{
     color: rgb(240, 239, 241);
 }
 
-#number1, #number2, #number3 {
+#numero1, #numero2, #numero3 {
     width: 80%;
     height: 40px;
     cursor: pointer;
