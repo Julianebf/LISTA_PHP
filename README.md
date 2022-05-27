@@ -6,6 +6,7 @@ Apache: VERSÃO
 (Win64)  
 OpenSSL: VERSÃO
 1.1.1n 
+
 PHP: VERSÃO 
 8.1.4 Server at localhost Port 80
 XAMPP: VERSÃO
@@ -23,8 +24,8 @@ XAMPP: VERSÃO
 
 5. Para que o xampp reconheça o arquivo, o diretorio deve está em uma pasta no c: ao clicar na pasta xammp deve-se clicar em seguida em uma pasta chamada htdocs.
 
-6. No htdocs todas as pastas salvas são reconhedas e interpretadas.
 
+6. No htdocs todas as pastas salvas são reconhedas e interpretadas.
 
 obs: No exercicio1 index.html é o arquivo de entrada do exercicio.
      No exercicio2 ex2.php é o arquivo de entrada do exercicio.
