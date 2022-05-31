@@ -1,0 +1,16 @@
+h2{
+    font-family: sans-serif;
+    color: purple;
+}
+body{
+    background: black;
+    color: white;
+}
+button{
+    border-radius: 3px;         
+    display:block;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    border:none;
+    cursor: pointer;
+}
