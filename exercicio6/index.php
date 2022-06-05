@@ -47,6 +47,7 @@ fora desse intervalo, informar que não existe mês com este número.
                 break;
             case 9:
                 echo 'Setembro';
+                break;
             case 10:
                 echo 'Outubro';
                 break;
