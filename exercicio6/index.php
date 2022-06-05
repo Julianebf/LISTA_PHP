@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="/exercicio6/style.css">
-    <title>Execicio 6</title>
+    <title>Exercicio 6</title>
 </head>
 <body>
 Ler um número inteiro entre 1 e 12 e escrever o mês correspondente. Caso o número seja 
@@ -18,46 +18,46 @@ fora desse intervalo, informar que não existe mês com este número.
     </form> 
     <?php
         if(isset($_POST['verificar'])){
-            $valor = strip_tags(filter_input(INPUT_POST,'valor'))
+            $numero = strip_tags(filter_input(INPUT_POST,'valor'));
         }
-        switch($valor){
+        switch($numero){
             case 1:
-                echo 'Janeiro'
+                echo 'Janeiro';
                 break;
             case 2:
-                echo 'Fevereiro'
+                echo 'Fevereiro';
                 break;
             case 3:
-                echo 'Março'
+                echo 'Março';
                 break;
             case 4:
-                echo 'Abril'
+                echo 'Abril';
                 break;
             case 5:
-                echo 'Maio'
+                echo 'Maio';
                 break;
             case 6:
-                echo 'Junho'
+                echo 'Junho';
                 break;
             case 7:
-                echo 'Julho'
+                echo 'Julho';
                 break;
             case 8:
-                echo 'Agosto'
+                echo 'Agosto';
                 break;
             case 9:
-                echo 'Setembro'
+                echo 'Setembro';
             case 10:
-                echo 'Outubro'
+                echo 'Outubro';
                 break;
             case 11:
-                echo 'Novembro'
+                echo 'Novembro';
                 break;
             case 12;
-                echo 'Dezembro'
+                echo 'Dezembro';
                 break;
             default:
-                echo 'Digite um numero de 1 á 12'
+                echo 'Digite um numero de 1 á 12';
         }
     ?>
 </body>
