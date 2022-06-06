@@ -16,22 +16,17 @@ body{
     background: #FFFFFF;
     border-radius: 24px;   
 }
-form input[type='input'] {
-    min-width: 280px;
-    border-radius: 22px;
-    border: 1.3px solid #E9ECF0; 
+#texto1, #usuario{
+    display: block;
+    width: 50%;
     box-sizing: border-box;
-    border-radius: 8px;
-    left: 520px;
-    padding: 5px;
-    margin: 0px 0px 12px -5px;
-    align-items: center;
+    padding: 12px;
 }
 button{
-    border-radius: 3px;         
-    display:block;
-    font-size: 18px;
-    font-family: 'Times New Roman';
-    border:none;
-    cursor: pointer;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rbg(7, 7, 12);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(6, 6, 26);
 }
