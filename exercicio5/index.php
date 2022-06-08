@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="exercicio5/style.css">
-    <title>Exercicio 5</title>
+    <link rel = "stylesheet" href="/exercicio5/style.css">
+    <title>Execicio5</title>
 </head>
 <body>
 Ler 3 números, os possíveis lados de um triângulo, e imprimir a classificação de 
 acordo com tamanho dos lados.
+
     <form  action="exercicio5/index.php" method="post">
         <div class="form">
         <h3></h3>
@@ -37,7 +38,8 @@ acordo com tamanho dos lados.
         }
         else{
             echo "Isosceles";
-        }   
+
+        }
     ?>
 </body>
 </html>
