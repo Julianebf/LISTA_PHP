@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style3.css">
-    <title>Exercicio3</title>
+    <title>Exercicio 3</title>
 </head>
 <body>
     Entrar com nome, sexo e idade de uma
