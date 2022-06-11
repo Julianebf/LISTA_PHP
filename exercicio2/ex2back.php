@@ -22,7 +22,7 @@ function divisible($number){
         echo "$number  is divisible by 2!";
     }
     else {
-        echo "$number  not's divisible by 10 by 5 or by 2!";
+        echo "$number  nots divisible by 10 by 5 or by 2!";
     }
 }
 ?>
