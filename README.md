@@ -30,3 +30,15 @@ obs: No exercicio1 index.html é o arquivo de entrada do exercicio.
      No exercicio2 ex2.php é o arquivo de entrada do exercicio.
      No exercicio3 index3.php é o arquivo de entrada do exercicio;
      No exercicio4 index4.php é o arquivo de entrada do exercicio.
+
+Unbutu
+1. Acesse o diretorio do exercicio.
+2. Digite no terminal php -S localhost:8585
+
+Testes 
+Codeception  
+Composer - versão 2.3.6
+
+1. Para startar os testes acesse o diretorio.
+2. Inicialize dois terminais em um acesse a pasta do exercicio que deseja visuaizar o teste, digite o comando php - S localhost:8585 no terminal, no browser digite php - S localhost:8585/nomedoexercicio
+3. Na segunda aba acesse os testes digite no terminal o comando, php vendor/bin/codecept run --steps.
