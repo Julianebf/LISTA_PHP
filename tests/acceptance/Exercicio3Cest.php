@@ -4,7 +4,7 @@ class Exercicio3Cest
     public function _before(AcceptanceTester $I)
     {
     }
-    public function testValidarSoma(AcceptanceTester $I)
+    public function testVerificarInformacoes(AcceptanceTester $I)
     {
         $I->amOnPage('/');
         $I->see('Exercicio 3');
