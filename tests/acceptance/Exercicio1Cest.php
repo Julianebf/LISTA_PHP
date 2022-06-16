@@ -9,6 +9,13 @@ class Exercicio1Cest
     {
         $I->amOnPage('/exercicio1');
         $I->see('Exercicio 1');
+        $I->fillField('valor1','10');
+        $I->fillField('valor2','20');
+        $I->click('Calcular');    
+        $I->see('38');
+
+        $I->amOnPage('/exercicio1');
+        $I->see('Exercicio 1');
         $I->fillField('valor1','5');
         $I->fillField('valor2','25');
         $I->click('Calcular');    
