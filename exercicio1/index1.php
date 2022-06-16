@@ -43,7 +43,7 @@
         $total = $soma - 5;
     }
     print $total;
-?>
+    ?>
         
 </body>
 </html>
