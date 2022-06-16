@@ -22,7 +22,7 @@
 <body>
     <form action="exercicio1/index.php" method="get" class="calc">
         <fieldset>
-            <legend>Computand!</legend>
+            <legend>Computasnd!</legend>
             <label for="pvalor">Primeiro Valor:</label>
             <input type="int" name="valor1" id="pvalor" placeholder="Informe o Primeiro Valor">
             <label for="svalor">Segundo Valor:</label>
