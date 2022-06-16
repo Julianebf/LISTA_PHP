@@ -6,7 +6,7 @@ class Exercicio3Cest
     }
     public function testVerificarInformacoes(AcceptanceTester $I)
     {
-        $I->amOnPage('/');
+        $I->amOnPage('/exercicio3');
         $I->see('Exercicio 3');
         $I->fillField('nome','juliane');
         $I->selectOption('sexo','F');
@@ -14,7 +14,7 @@ class Exercicio3Cest
         $I->click('verificar');
         $I->see('ACEITA');
 
-        $I->amOnPage('/');
+        $I->amOnPage('/exercicio3');
         $I->see('Exercicio 3');
         $I->fillField('nome','fabio');
         $I->selectOption('sexo','M');
@@ -22,7 +22,7 @@ class Exercicio3Cest
         $I->click('verificar');
         $I->see('NÃO ACEITA');
 
-        $I->amOnPage('/');
+        $I->amOnPage('/exercicio3');
         $I->see('Exercicio 3');
         $I->fillField('nome','maria');
         $I->selectOption('sexo','F');

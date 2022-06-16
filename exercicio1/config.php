@@ -1,6 +1,6 @@
 <?php
-    $primeiroValor=$_GET['valor1'];
-    $segundoValor=$_GET['valor2'];
+    $primeiroValor=$_POST['valor1'];
+    $segundoValor=$_POST['valor2'];
     
     $soma = $primeiroValor + $segundoValor;
 
