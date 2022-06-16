@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 1</title>
     <link rel="icon" href="favicon.png" type="images">
-    <link rel="stylesheet" href="execicio1/style.css">
+    <link rel="stylesheet" href="exercicio1/style.css">
 </head>
 
     <header>
@@ -20,7 +20,7 @@
     <hr><br/>
     
 <body>
-    <form action="config.php" method="get" class="calc">
+    <form action="exercicio1/index.php" method="get" class="calc">
         <fieldset>
             <legend>Computand!</legend>
             <label for="pvalor">Primeiro Valor:</label>
@@ -30,6 +30,20 @@
             <input type="submit" value="Calcular" class="buton"> 
         </fieldset>
     </form>
+    <?php
+    $primeiroValor=$_GET['valor1'];
+    $segundoValor=$_GET['valor2'];
+    
+    $soma = $primeiroValor + $segundoValor;
+
+    if ($soma > 20){
+        $total = $soma + 8;
+    }
+    else{
+        $total = $soma - 5;
+    }
+    print $total;
+?>
         
 </body>
 </html>
