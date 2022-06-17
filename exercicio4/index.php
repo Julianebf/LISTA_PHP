@@ -10,6 +10,7 @@
 <body>
 Entrar com 3 números e imprimi-los em ordem decrescente (suponha números diferentes)
 <<<<<<< HEAD
+<<<<<<< HEAD
     <form action = "/exercicio4/index.php" method="post">
         <div class="form">
         <input type="int" placeholder="Escreva o primeiro valor" name="numero1" id="numero1">
@@ -49,6 +50,9 @@ Entrar com 3 números e imprimi-los em ordem decrescente (suponha números difer
             }
 =======
     <form  method="post">
+=======
+    <form action = "index.php" method="post">
+>>>>>>> mudando nome de output
         <div class="form">
         <h3>Order</h3>
         <input type="int" placeholder="Enter number1" name="number1" id="number1">
@@ -84,8 +88,11 @@ Entrar com 3 números e imprimi-los em ordem decrescente (suponha números difer
             elseif (($number1<$number2) && ($number3<$number2) && ($number3<$number1)) {
                echo "Em ordem decrescente: $number2, $number1,$number3";
             }
+<<<<<<< HEAD
     
 >>>>>>> mudando nome do arquivo
+=======
+>>>>>>> mudando nome de output
         }
     ?>
 </body>
