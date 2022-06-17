@@ -48,10 +48,10 @@ class Exercicio6Cest
         $I->see('Exercicio 6');
         $I->fillField('valor','7');
         $I->click('verificar');    
-        $I->see('Jullho');
+        $I->see('Julho');
 
         $I->amOnPage('/exercicio6');
-        $I->see('Exercicio 8');
+        $I->see('Exercicio 6');
         $I->fillField('valor','8');
         $I->click('verificar');    
         $I->see('Agosto');
@@ -76,7 +76,7 @@ class Exercicio6Cest
 
         $I->amOnPage('/exercicio6');
         $I->see('Exercicio 6');
-        $I->fillField('valor','11');
+        $I->fillField('valor','12');
         $I->click('verificar');    
         $I->see('Dezembro');
     }
