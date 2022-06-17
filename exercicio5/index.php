@@ -30,13 +30,13 @@ acordo com tamanho dos lados.
         }
 
         if(($numero1==$numero2) && ($numero2==$numero3) && ($numero1==$numero3)){
-            echo "O triangulo tem todos os lados com a mesma medida, classificado como: Equilatero";
+            echo "Equilatero";
         }
         elseif(($numero1!=$numero3) && ($numero1!=$numero2) && ($numero2!=$numero3)){
-            echo "O triangulo tem todos os lados com medidas diferentes, classificado como: Escaleno";
+            echo "Escaleno";
         }
         else{
-            echo "O triangulo tem dois lados com a mesma medida e um lado com a medida diferente classificado como: Isosceles";
+            echo "Isosceles";
         }   
     ?>
 </body>
