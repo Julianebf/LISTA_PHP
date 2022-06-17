@@ -9,11 +9,11 @@ class Exercicio4Cest
     {
         $I->amOnPage('/exercicio4');
         $I->see('Exercicio 4');
-        $I->fillField('number1','9');
-        $I->fillField('number2','88');
-        $I->fillField('number3','56');
+        $I->fillField('number1','3');
+        $I->fillField('number2','4');
+        $I->fillField('number3','5');
         $I->click('verificar');    
-        $I->see('Em ordem decrescente: 88, 56, 9');
+        $I->see('Em ordem descrecente: 5, 4, 3');
 
         $I->amOnPage('/exercicio4');
         $I->see('Exercicio 4');
