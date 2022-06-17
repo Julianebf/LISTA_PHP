@@ -10,7 +10,7 @@
 <body>
 Entrar com 3 números e imprimi-los em ordem decrescente (suponha números diferentes)
     
-    <form  method="post">
+    <form  action = "index.php" method="post">
         <div class="form">
         <h3>Order</h3>
         <input type="int" placeholder="Enter number1" name="number1" id="number1">
@@ -23,7 +23,7 @@ Entrar com 3 números e imprimi-los em ordem decrescente (suponha números difer
         </div>
     </form>
     <?php
-        if(isset($_POST['verify'])){
+        if(isset($_POST['verificar'])){
             $number1 = strip_tags(filter_input(INPUT_POST, 'number1', FILTER_SANITIZE_STRIPPED));
             $number2 = strip_tags(filter_input(INPUT_POST, 'number2', FILTER_SANITIZE_STRIPPED));
             $number3 = strip_tags(filter_input(INPUT_POST, 'number3', FILTER_SANITIZE_STRIPPED));
