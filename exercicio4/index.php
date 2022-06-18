@@ -27,6 +27,7 @@ Entrar com 3 números e imprimi-los em ordem decrescente (suponha números difer
             $number1 = strip_tags(filter_input(INPUT_POST, 'number1', FILTER_SANITIZE_STRIPPED));
             $number2 = strip_tags(filter_input(INPUT_POST, 'number2', FILTER_SANITIZE_STRIPPED));
             $number3 = strip_tags(filter_input(INPUT_POST, 'number3', FILTER_SANITIZE_STRIPPED));
+            
             if (($number1<$number2) && ($number2<$number3) && ($number1<$number3)) {
                 echo "Em ordem descrecente: $number3, $number2, $number1";
             }
