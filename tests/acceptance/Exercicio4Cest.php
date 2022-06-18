@@ -1,10 +1,14 @@
 <?php
 
 class Exercicio4Cest
+<<<<<<< HEAD
 {   
     public function _before(AcceptanceTester $I)
     {
     }
+=======
+{  
+>>>>>>> adicionando restante dos aquivos
     /**
      * @test
      */
@@ -12,6 +16,7 @@ class Exercicio4Cest
     {
         $I->amOnPage('/exercicio4');
         $I->see('Exercicio 4');
+<<<<<<< HEAD
         $I->fillField('numero1',9);
         $I->fillField('numero2',9);
         $I->fillField('numero3',9);
@@ -29,3 +34,12 @@ class Exercicio4Cest
         
     }
 }
+=======
+        $I->fillField('number1','3');
+        $I->fillField('number2','4');
+        $I->fillField('number3','5');
+        $I->click('verificar');    
+        $I->see('Em ordem descrecente:5,4,3');
+    }
+}
+>>>>>>> adicionando restante dos aquivos
