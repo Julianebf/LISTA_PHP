@@ -46,7 +46,23 @@ Entrar com 3 números e imprimi-los em ordem decrescente (suponha números difer
             elseif (($number1<$number2) && ($number3<$number2) && ($number3<$number1)) {
                echo "Em ordem decrescente: $number2, $number1,$number3";
             }
-    
+            elseif (($number1 = $number2) && ($number2<$number3) && ($number3<$number1)){
+                echo "Suponha numeros diferentes";
+            }
+            elseif (($number1 < $number2) && ($number2 = $number3) && ($number3<$number1)){
+                echo "Suponha numeros diferentes";
+            }
+            elseif (($number1 < $number2) && ($number2<$number3) && ($number3=$number1)){
+                echo "Suponha numeros diferentes";
+            }
+            elseif (($number2=$number1) && ($number1<$number3) && ($number2<$number3)) {
+                echo "Suponha numeros diferentes";
+            }
+            elseif (($number2=$number1) && ($number1=$number3) && ($number2=$number3)) {
+                echo "Suponha numeros diferentes";
+            }
+
+        
         }
     ?>
     

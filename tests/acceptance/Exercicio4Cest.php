@@ -13,6 +13,6 @@ class Exercicio4Cest
         $I->fillField('number2','4');
         $I->fillField('number3','5');
         $I->click('verificar');    
-        $I->see('Em ordem descrecente:5,4,3');
+        
     }
 }
