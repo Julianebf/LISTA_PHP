@@ -9,10 +9,10 @@ class Exercicio4Cest
     {
         $I->amOnPage('/exercicio4');
         $I->see('Exercicio 4');
-        $I->fillField('number1','3');
-        $I->fillField('number2','4');
-        $I->fillField('number3','5');
-        $I->click('verificar');    
-        
+        $I->fillField('number1','8');
+        $I->fillField('number2','9');
+        $I->fillField('number3','4');
+        $I->click('verificar');
+        $I->see('Em ordem decrescente: 9, 8,4');  
     }
 }
