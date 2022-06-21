@@ -28,43 +28,28 @@ Entrar com 3 números e imprimi-los em ordem decrescente (suponha números difer
             $number2 = strip_tags(filter_input(INPUT_POST, 'number2', FILTER_SANITIZE_STRIPPED));
             $number3 = strip_tags(filter_input(INPUT_POST, 'number3', FILTER_SANITIZE_STRIPPED));
             
-            if (($number1<$number2) && ($number2<$number3) && ($number1<$number3)) {
-                echo "Em ordem descrecente: $number3, $number2, $number1";
+            if (($number1<$number2) && ($number2<$number3)) {
+                echo "Em ordem decrescente:$number3, $number2 e $number1.";
             }
-            elseif (($number1<$number3) && ($number3<$number2) && ($number1<$number2)) {
-                echo "Em ordem decrescente: $number2, $number3, $number1";
+            elseif (($number1<$number3) && ($number3<$number2)) {
+                echo "Em ordem decrescente: $number2, $number3 e $number1.";
             }
-            elseif (($number2<$number1) && ($number1<$number3) && ($number2<$number3)) {
-                echo "Em ordem decrescente: $number3, $number1, $number2";
+            elseif (($number2<$number) && ($num1<$num3)) {
+                echo "Em ordem decrescente: $number3, $number1 e $number2.";
             }
-            elseif (($number2<$number3) && ($number3<$number1) && ($number2<$number1)) {
-               echo "Em ordem decrescente: $number1, $number3, $number2";
+            elseif (($number2<$number3) && ($number3<$number1)) {
+                echo "Em ordem decrescente: $number1, $number3 e $number2.";
             }
-            elseif (($number2<$number1) && ($number3<$number2) && ($number3<$number1)){
-                echo "Em ordem decrescente: $number1, $number2, $number3";
+            elseif (($number3<$number1) && ($number1<$number2)) {
+                echo "Em ordem decrescente: $number1, $number3 e $number2.";
             }
-            elseif (($number1<$number2) && ($number3<$number2) && ($number3<$number1)) {
-               echo "Em ordem decrescente: $number2, $number1,$number3";
+            elseif (($number2<$number1) && ($number3<$number2)) {
+                echo "Em ordem decrescente: $number, $number2 e $number3.";
+                }
+            elseif (($number1<$number2) && ($number3<$number2)) {
+                echo "Em ordem decrescente: $number2, $number1 e $number3.";
             }
-            elseif (($number1 = $number2) && ($number2<$number3) && ($number3<$number1)){
-                echo "Suponha numeros diferentes";
-            }
-            elseif (($number1 < $number2) && ($number2 = $number3) && ($number3<$number1)){
-                echo "Suponha numeros diferentes";
-            }
-            elseif (($number1 < $number2) && ($number2<$number3) && ($number3=$number1)){
-                echo "Suponha numeros diferentes";
-            }
-            elseif (($number2=$number1) && ($number1<$number3) && ($number2<$number3)) {
-                echo "Suponha numeros diferentes";
-            }
-            elseif (($number2=$number1) && ($number1=$number3) && ($number2=$number3)) {
-                echo "Suponha numeros diferentes";
-            }
-
-        
         }
-    ?>
-    
+            ?>
 </body>
 </html>
