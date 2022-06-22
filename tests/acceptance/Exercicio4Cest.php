@@ -1,7 +1,10 @@
 <?php
 
 class Exercicio4Cest
-{  
+{   
+    public function _before(AcceptanceTester $I)
+    {
+    }
     /**
      * @test
      */
@@ -9,10 +12,10 @@ class Exercicio4Cest
     {
         $I->amOnPage('/exercicio4');
         $I->see('Exercicio 4');
-        $I->fillField('number1','8');
-        $I->fillField('number2','9');
-        $I->fillField('number3','4');
+        $I->fillField('number1','0');
+        $I->fillField('number2','6');
+        $I->fillField('number3','78');
         $I->click('verificar');
-        $I->see('Em ordem decrescente: 9, 8,4');  
+        $I->see("Em ordem descrecente: 78, 6, 0");
     }
 }

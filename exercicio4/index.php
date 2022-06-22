@@ -45,6 +45,9 @@ Entrar com 3 números e imprimi-los em ordem decrescente (suponha números difer
             elseif (($number1<$number2) && ($number3<$number2) && ($number3<$number1)) {
                echo "Em ordem decrescente: $number2, $number1,$number3";
             }
+            else {
+                echo "Informe numeros difeentes";
+            }
         }
     ?>
 </body>
