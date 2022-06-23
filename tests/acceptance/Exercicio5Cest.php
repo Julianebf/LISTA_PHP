@@ -13,6 +13,6 @@ class Exercicioa5Cest
         $I->fillField('numero2','9');
         $I->fillField('numero3','9');
         $I->click('verificar');    
-        $I->see("Equilatero");
+        $I->see('Equilatero');
     }
 }
