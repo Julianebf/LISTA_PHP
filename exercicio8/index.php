@@ -10,8 +10,8 @@
 <body>
     <p>Criar um algoritmos que leia um número e imprima todos os número de 1 até ele e o seu produto.</p> <hr> </br>
     <form method = "post">
-        <input type = "int" placeholder = "Digite um numero" name = "numero" id = numero>  </input> <br>
-        <button name = enviar>Enviar</button>
+        <input type = "int" placeholder = "Digite um numero" name = "numero" id = "numero">  </input> <br>
+        <button name = "enviar">Enviar</button>
     </form>
 </body>
 </html>
