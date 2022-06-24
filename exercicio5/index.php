@@ -10,7 +10,7 @@
 <body>
 Ler 3 números, os possíveis lados de um triângulo, e imprimir a classificação de 
 acordo com tamanho dos lados.
-    <form  action="index.php" method="post">
+    <form  action="exercicio5/index.php" method="post">
         <div class="form">
         <h3></h3>
         <input type="int" placeholder="Primeiro numero" name="numero1" id="numero1">
