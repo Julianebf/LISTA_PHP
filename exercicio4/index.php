@@ -22,9 +22,9 @@ Entrar com 3 números e imprimi-los em ordem decrescente (suponha números difer
     </form>
     <?php
         if(isset($_POST['verificar'])){
-            $number1 = strip_tags(filter_input(INPUT_POST, 'numero1'));
-            $number2 = strip_tags(filter_input(INPUT_POST, 'numero2'));
-            $number3 = strip_tags(filter_input(INPUT_POST, 'numero3'));
+            $numero1 = strip_tags(filter_input(INPUT_POST, 'numero1'));
+            $numero2 = strip_tags(filter_input(INPUT_POST, 'numero2'));
+            $numero3 = strip_tags(filter_input(INPUT_POST, 'numero3'));
             if (($numero1<$numero2) && ($numero2<$numero3) && ($numero1<$numero3)){
                 echo "Em ordem descrecente: $numero3, $numero2, $numero1";
             }
