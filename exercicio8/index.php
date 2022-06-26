@@ -30,6 +30,5 @@
             echo  " = $result";
         }
     ?>
-
 </body>
 </html>
