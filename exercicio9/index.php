@@ -9,10 +9,20 @@
 </head>
 <body>
     <p>Entrar com o número de vezes que se deseja imprimir a palavra SOL e imprimir<p>
-    <form action="/exercicio9/index.php"  method="post">
+    <form action = "index.php" method="post">
 		<input type="int" placeholder="digite o numero" name="numero" id="numero">
 		<br/>
 		<button name="verificar">verificar</button> 
     </form>  
+    <?php
+      if(isset ($_POST['verificar'])){
+        $numero = strip_tags(filter_input(INPUT_POST,'numero'));
+      $i = 1;
+      while ($i <= $numero):
+          echo "Sol </br>"; 
+          $i++;
+      endwhile;
+      }
+    ?>
 </body>
 </html>
