@@ -1,6 +1,6 @@
 <?php
 
-class Exercicio8FCest
+class Exercicio8Cest
 {
     /**
      * @test
@@ -9,9 +9,7 @@ class Exercicio8FCest
     public function frontExercicio8 (AcceptanceTester $I)
     {
         $I->amOnPage('/exercicio8');
-        $I->see('Exercicio 8');
-        $I->fillField('input type','int');
-        $I->click('verificar');    
-        
+        $I->see('Exercicio 8');  
+        $I->click('enviar');    
     }
 }
