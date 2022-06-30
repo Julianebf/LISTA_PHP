@@ -1,16 +1,19 @@
 <?php
 
-class Exercicio6Cest
+class Exercicio8Cest
+
 {
     /**
      * @test
      */
 
-    public function produtoDoNumero (AcceptanceTester $I)
+
+    public function produtoDeUmNumero (AcceptanceTester $I)
     {
         $I->amOnPage('/exercicio8');
         $I->see('Exercicio 8');
-        $I->fillField('numero','10');
+        $I->fillField('numero','5');
         $I->click('enviar');    
+
     }
 }
