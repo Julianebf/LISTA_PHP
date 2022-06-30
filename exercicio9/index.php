@@ -14,5 +14,16 @@
 		<br/>
 		<button name="verificar">verificar</button> 
     </form>  
+    <?php
+     if(isset ($_POST['verificar'])){
+       $numero = strip_tags(filter_input(INPUT_POST,'numero'));
+     $i = 1;
+     while ($i <= $numero):
+         echo "Sol </br>";
+         $i++;
+     endwhile;
+     }
+   ?>
+
 </body>
 </html>
