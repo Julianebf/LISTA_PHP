@@ -11,9 +11,9 @@
     <p>Entrar com 20 números e imprimir a soma dos positivos e o total de números negativos </p>
     <h3> Digite 20 numeros: </h3>
     <form action="/exercicio10/index.php"  method="post">
-		<input type="int" placeholder="digite os numeros" name="numeros" id="numeros">
+		<input type="int" placeholder="digite os numeros" name="numeros" id="numeros"> 
 		<br/>
 		<button name="verificar">verificar</button> 
-    </form>  
+    </form>
 </body>
 </html>
