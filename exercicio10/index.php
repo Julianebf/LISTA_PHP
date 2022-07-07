@@ -15,5 +15,24 @@
 		<br/>
 		<button name="verificar">verificar</button> 
     </form>
+    <?php
+      if(isset($_POST['verificar'])){
+        $numeros = strip_tags(filter_input(INPUT_POST,'numeros'));
+       
+        $arr = array();
+        $numerosPositivos = [];
+        $numerosNegativos = [];
+        foreach ($arr as $numeros){
+          if ($numeros>0){
+            $numerosPositivos = $numeros;
+          }
+          else{
+            $numerosNegativos = $numeros;
+          }
+        }
+        echo "A soma dos numeros positivos:" . array_sum($numerosPositivos). "</br>";
+        echo "A quantidade dos numeros negativos:" . count($numerosNegativos). "</br>";
+      }
+    ?>
 </body>
 </html>
