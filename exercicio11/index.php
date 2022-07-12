@@ -14,5 +14,14 @@
 		<br/>
 		<button name="verificar">verificar</button> 
     </form> 
+    <?php
+       if(isset($_POST['verificar'])){
+        $numero = strip_tags(filter_input(INPUT_POST,'numero'));
+        for ($i=1; $i<=10; $i++){
+            echo "$i * $numero = ".($i * $numero);
+            echo "<br><br>";
+        }
+       }
+    ?>
 </body>
 </html>
