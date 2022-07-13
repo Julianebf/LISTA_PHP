@@ -19,5 +19,17 @@ SONHO SONHO SONHO SONHO</p>
 		<br/>
 		<button name="verificar">verificar</button> 
     </form>  
+    <?php
+         if(isset($_POST['verificar'])){
+            $palavra = strip_tags(filter_input(INPUT_POST,'palavra'));
+            $palavra = " ". strtoupper($palavra);
+            for ($i=0; $i<5; $i++){
+                for ($j=0; $j < $i; $j++){
+                    echo $palavra;
+                }
+                echo "</br>";
+            }
+         }
+    ?>
 </body>
 </html>
