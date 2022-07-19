@@ -14,5 +14,24 @@
 		<br/>
 		<button name="verificar">verificar</button> 
     </form>
+    <?php
+        if(isset($_POST['verificar'])){
+          $numeros = strip_tags(filter_input(INPUT_POST,'numeros'));
+          $cont = array();
+          $arr=explode (" ", $numeros);
+          foreach($arr as $a){    
+            if($numeros >= 100 && $numero <=200){
+              $cont[] = $a;
+            } 
+            elseif ($a== 0){
+              exit ("ecerrando execução");
+            } 
+           }
+           $count = count($a);
+          echo "a quantidade de numeros: $count";
+
+          }
+
+    ?>
 </body>
 </html>
