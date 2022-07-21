@@ -21,7 +21,7 @@
           $arr=explode (" ", $numeros);
           foreach($arr as $a){    
             if($numeros >= 100 && $numero <=200){
-              $cont[] = $a;
+              $cont[] = $numeros;
             } 
             elseif ($a== 0){
               exit ("ecerrando execução");
