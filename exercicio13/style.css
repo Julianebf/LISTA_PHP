@@ -1,0 +1,24 @@
+body{
+    background: rgb(47, 255, 203);
+}
+p{
+    color:#4b5152;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#numeros, button{
+    position:absolute;
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 12px;
+    align-items: center;
+    left: 25%;
+ }
+ button{
+    margin-top: 20px;
+    background-color: #757679;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+ } 
