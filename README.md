@@ -42,3 +42,30 @@ Composer - versão 2.3.6
 1. Para startar os testes acesse o diretorio.
 2. Inicialize dois terminais em um acesse a pasta do exercicio que deseja visuaizar o teste, digite o comando php - S localhost:8585 no terminal, no browser digite php - S localhost:8585
 3. Na segunda aba acesse os testes digite no terminal o comando, php vendor/bin/codecept run --steps.
+
+Docker
+- Para instalar o Docker na sua maquina (unbutu 20.4): Digite no terminal o passo á passo
+1. sudo apt update
+2. sudo apt install apt-transport-https ca-certificates curl software-properties-common
+3. curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+4. sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+5. sudo apt update
+6. apt-cache policy docker-ce
+7. sudo apt install docker-ce
+8. sudo systemctl status docker
+Resultado deve ser:
+Output
+● docker.service - Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2020-05-19 17:00:41 UTC; 17s ago
+TriggeredBy: ● docker.socket
+       Docs: https://docs.docker.com
+   Main PID: 24321 (dockerd)
+      Tasks: 8
+     Memory: 46.4M
+     CGroup: /system.slice/docker.service
+             └─24321 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+* Apartir do exercicio 14 é utilizado Docker
+- Para rodar o docker-compose escreva o comando: docker-compose up -d
+- paa ver os containers que estão rodando: docker ps
+- Para entrar na interface do phpadimin: localhost:8080. 
